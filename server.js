@@ -4,7 +4,7 @@ var mysql = require('mysql');
 var fs = require("fs");
 
 const PORT = 8081;
-const Host = '192.168.1.2';
+const Host = '127.0.0.1';
 
 var con = mysql.createConnection({
    host: "localhost",
