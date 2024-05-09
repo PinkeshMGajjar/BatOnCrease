@@ -3,7 +3,7 @@ var app = express();
 var mysql = require('mysql');
 var fs = require("fs");
 
-const PORT = 80;
+const PORT = 7000;
 const Host = '127.0.0.1';
 
 var con = mysql.createConnection({
